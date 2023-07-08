@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@100&family=Overpass:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: hsl(212, 14%, 23%);
+  font-family: "Overpass", sans-serif;
+}
+
+.main-div,
+.main-div2 {
+  background-color: hsl(213, 19%, 18%);
+  padding: 1.5rem;
+  max-width: 25rem;
+  max-height: 100vh;
+  border-radius: 1.8rem;
+}
+
+.btn2 {
+  padding-bottom: 2rem;
+}
+.main-div img {
+  background-color: hsl(214, 14%, 23%);
+  padding: 0.9rem;
+  border-radius: 50%;
+}
+.main-div h1,
+.main-div2 h1 {
+  color: white;
+  margin: 1rem 0;
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+  margin: 1rem 0;
+  line-height: 1.5rem;
+}
+
+.main-div ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1.5rem 0;
+}
+.main-div ul li {
+  background-color: hsl(214, 14%, 23%);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.main-div ul li:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+.main-div ul li:focus {
+  background-color: hsl(217, 12%, 63%);
+}
+
+.btn,
+.btn2 {
+  background-color: hsl(25, 97%, 53%);
+  width: 100%;
+  border: none;
+  color: #fff;
+  border-radius: 2rem;
+  padding: 0.9rem 0 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+.btn2:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+.main-div2 img {
+  display: block;
+  margin: 0 auto 2rem;
+  margin-top: 1rem;
+}
+
+.main-div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.rate-result {
+  background-color: hsl(214, 14%, 23%);
+  border-radius: 3rem;
+  color: hsl(25, 97%, 53%);
+  padding: 0.2rem 1rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.02rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.name {
+  color: wheat;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 1s;
+}
+.name:hover {
+  color: rgb(0, 183, 255);
+}
